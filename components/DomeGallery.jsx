@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useCallback } from 'react';
 import { useGesture } from '@use-gesture/react';
 import './DomeGallery.css';
+import Image from 'next/image';
 
 const DEFAULT_IMAGES = [
   {
@@ -631,7 +632,7 @@ export default function DomeGallery({
                   onClick={onTileClick}
                   onPointerUp={onTilePointerUp}
                 >
-                  <img src={it.src} draggable={false} alt={it.alt} />
+                  <Image src={it.src} draggable={false} alt={it.alt} width={100} height={100} />
                 </div>
               </div>
             ))}
