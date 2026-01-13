@@ -5,27 +5,27 @@ import Image from 'next/image';
 
 const DEFAULT_IMAGES = [
   {
-    src: '/images/1.jpg',
+    src: '/1.jpg',
     alt: 'Abstract art'
   },
    {
-    src: '/images/2.jpg',
+    src: '/2.jpg',
     alt: 'Abstract art'
   },
    {
-    src: '/images/3.jpg',
+    src: '/3.jpg',
     alt: 'Abstract art'
   },
    {
-    src: '/images/4.jpg',
+    src: '/4.jpg',
     alt: 'Abstract art'
   },
    {
-    src: '/images/5.jpg',
+    src: '/5.jpg',
     alt: 'Abstract art'
   },
    {
-    src: '/images/6.jpg',
+    src: '/6.jpg',
     alt: 'Abstract art'
   },
   
